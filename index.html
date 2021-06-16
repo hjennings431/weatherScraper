@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Weather App</title>
+    <meta name="description" content="An application that shows you the weather at your current location">
+    <meta name="author" content="Harry Jennings">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <section class = "top-banner">
+        <form>
+            <input type="text" placeholder="Search for a city" autofocus>
+            <button type="submit">SUBMIT</button>
+            <span class="msg"></span>
+          </form>
+    </section>
+    
+    <div id = "weather">
+        <div id="description"></div>
+        <h1 id="temp"></h1>
+        <div id="location"></div>
+    </div>
+
+    <script src="src/index.js"></script>
+</body>
+
+</html>
